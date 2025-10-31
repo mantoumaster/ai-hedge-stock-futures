@@ -46,8 +46,8 @@ class LLMModel(BaseModel):
 # Define available models
 AVAILABLE_MODELS = [
     LLMModel(
-        display_name="[qwen] qwen-max-latest",
-        model_name="qwen-max-latest",
+        display_name="[qwen] qwen3-max",
+        model_name="qwen3-max",
         provider=ModelProvider.QWEN
     ),
     LLMModel(
